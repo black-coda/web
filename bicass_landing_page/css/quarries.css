@@ -1,0 +1,322 @@
+@media (max-width: 1371px) {
+  /*font size: 9.5px ->  56.25% */
+  html {
+    font-size: 59.4%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .hero-wrapper {
+    grid-template-columns: 1fr;
+    max-width: 100vw;
+    justify-items: center;
+    align-items: center;
+    row-gap: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .hero-content {
+    width: 85%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    gap: 4rem;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1250px) {
+
+  .plan-card-wrapper {
+    gap: 1rem;
+    font-size: 58.4%;
+  }
+
+  .info-section-container {
+    gap: 2rem;
+  }
+
+  .plan-card-text h4 {
+  }
+
+  h3.logo {
+    color: var(--white);
+  }
+
+  .info-form-wrapper {
+    max-width: 550px;
+    padding: 2rem 6.6rem 6.6rem
+
+  }
+}
+
+
+@media (max-width: 1185px) {
+  .info-section-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .info-testimony-text-wrapper {
+    width: 85%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .info-testimony-text-wrapper-upper {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1127px) {
+  .collab-company-wrapper {
+    justify-content: stretch;
+    gap: 3rem;
+  }
+}
+
+
+@media (max-width: 1042px) {
+  .function-wrapper-text h3 {
+    font-size: 4.5rem;
+  }
+
+  .function-wrapper p {
+    font-size: 1.6rem;
+  }
+}
+
+/* For tablets and smaller desktops (max-width: 1023px) */
+@media (max-width: 1023px) {
+  .plan-card-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Make cards wrap */
+    gap: 3rem;
+  }
+
+  .plan-card {
+    /* Reduce margin/padding if needed */
+  }
+
+  .plan-card-last {
+    grid-column: 1 / 3; /* Span from the first to the third column line */
+  }
+}
+
+@media (max-width: 1003px) {
+  nav, div.auth-btn-container {
+    display: none;
+  }
+
+  .mobile-breadcrumb{
+    display: block;
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+  }
+
+  .mobile-breadcrumb img{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 797px) {
+  html {
+    font-size: 56%;
+  }
+
+  .footer {
+    padding-top: 8rem;
+  }
+
+  .footer-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .footer-upper-left {
+    align-items: center;
+  }
+
+  .footer-upper-right {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-bottom-container p {
+    font-size: 1.6rem;
+  }
+
+  .footer-bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .footer-container-text {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+  }
+
+  .plan-card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+  }
+
+  .plan-card-last {
+    grid-column: auto;
+  }
+
+  .info-section-container {
+    gap: 4rem;
+  }
+
+  .plan-wrapper-header {
+    margin-top: 4rem;
+  }
+
+  .benefit-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .benefit-text-wrapper {
+    text-align: center;
+  }
+
+  .function-points-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .function-point-wrapper {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .function-wrapper p {
+    font-size: 1.6rem;
+    width: 85%;
+  }
+
+  .function-wrapper-text {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .function-wrapper-text h3, .function-wrapper-text p {
+    max-width: 40rem;
+    text-align: center;
+  }
+
+  .function-wrapper-text a {
+    max-width: 200px;
+  }
+
+  .features-container {
+    gap: 6rem;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .features-content-left {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .rating-wrapper {
+    gap: 10rem;
+  }
+
+  .features-content-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 5rem;
+    align-self: center;
+    /*max-height: 411px;*/
+  }
+
+  /* Adjust other elements as needed */
+}
+
+/* For smaller phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .plan-wrapper-header h3 {
+    font-size: 2.5rem;
+  }
+
+  .plan-wrapper-header p {
+    font-size: 1.4rem;
+  }
+
+  .plan-btn-wrapper {
+    max-width: 220px;
+    height: 50px;
+  }
+
+  .plan-btn-wrapper p {
+    font-size: 1.4rem;
+  }
+
+  .plan-card {
+    padding: 2rem 1.5rem 2rem 1.5rem; /* Adjust padding on smaller cards */
+  }
+
+  .plan-card-item-container {
+    padding: 1.5rem 2rem;
+  }
+
+  .plan-card-item p {
+    font-size: 1.6rem;
+  }
+
+  .plan-card-text h4 {
+    font-size: 2.4rem;
+  }
+
+  .plan-card-text-p {
+    font-size: 1.6rem;
+  }
+
+  .plan-card-item svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .plan-card-item p {
+    /* Adjust if text wraps too much */
+  }
+}
+
+@media (max-width: 376px) {
+  header {
+
+  }
+
+
+  nav, .auth-btn-container a {
+    display: none;
+  }
+}
