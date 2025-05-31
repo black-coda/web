@@ -1,0 +1,53 @@
+@media (max-width: 91.25rem) {
+    .footer-nav ul {
+        gap: 3rem;
+    }
+}
+
+/*1451px*/
+@media (max-width: 90.68rem) {
+    html {
+        /*FONT SIZE REDUCED TO 9px*/
+        font-size: 56.25%;
+    }
+
+
+}
+
+/*1415*/
+@media (max-width: 88.45rem) {
+    .testimonial-container-2, .testimonial-container-3 {
+        display: none;
+    }
+}
+
+/*1319*/
+@media (max-width: 82.44rem) {
+
+    .footer-nav {
+        gap: 10rem;
+    }
+    .team-grid-wrapper{
+        gap: 3rem;
+    }
+
+}
+
+/*1187*/
+@media (max-width: 79.19rem) {
+    .footer-nav {
+        gap: 8rem;
+    }
+}
+
+/*1169*/
+@media (max-width: 73.06rem) {
+    /*reduce font-size to 8px*/
+    html{
+        font-size: 53.625%;
+    }
+    .nav-links{
+        gap: 3rem;
+    }
+}
+

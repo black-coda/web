@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick: Carosel</title>
+</head>
+<body>
+<section class="testimonial-carousel">
+    <div class="carousel-track">
+        <!-- Slide 1 -->
+        <div class="testimonial-slide">
+            <div class="testimonial-bubble">
+                <p>“We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads.”</p>
+            </div>
+            <div class="testimonial-author">
+                <h4>John Smith</h4>
+                <p>Marketing Director at XYZ Corp</p>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="testimonial-slide">
+            <div class="testimonial-bubble">
+                <p>“Thanks to Positivus, our website engagement has doubled! Their team is fantastic and super easy to work with.”</p>
+            </div>
+            <div class="testimonial-author">
+                <h4>Jane Doe</h4>
+                <p>CEO at ABC Company</p>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="testimonial-slide">
+            <div class="testimonial-bubble">
+                <p>“Positivus has been instrumental in boosting our online presence. Couldn't ask for a better partner.”</p>
+            </div>
+            <div class="testimonial-author">
+                <h4>Mike Johnson</h4>
+                <p>Founder at 123 Ventures</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Outer container */
+    .testimonial-carousel {
+        overflow: hidden;
+        padding: 4rem 0;
+        background: black;
+    }
+
+    /* Track (movable) */
+    .carousel-track {
+        display: flex;
+        gap: 2rem;
+        padding: 2rem;
+        transform: translateX(-20%); /* Start slightly left so 1st and 3rd are partially visible */
+    }
+
+    /* Each slide */
+    .testimonial-slide {
+        flex: 0 0 60%; /* Show 60% of the width to allow peeking slides */
+        background-color: #131313;
+        border: 1px solid #A8FF35;
+        border-radius: 20px;
+        padding: 2rem;
+        text-align: center;
+        position: relative;
+        color: white;
+    }
+
+    /* Bubble pointer */
+    .testimonial-bubble::after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-width: 10px;
+        border-style: solid;
+        border-color: #A8FF35 transparent transparent transparent;
+    }
+
+    /* Author section */
+    .testimonial-author h4 {
+        color: #A8FF35;
+        margin-top: 1rem;
+    }
+    .testimonial-author p {
+        color: #cccccc;
+        margin: 0;
+    }
+</style>
+
+</body>
+</html>
